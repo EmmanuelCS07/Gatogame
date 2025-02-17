@@ -1,0 +1,107 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(#000000, #a6dfee);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 4.5rem;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 15px;
+
+}
+
+#juego {
+    font-size: 24px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+#jueguito {
+
+    color: #50d3ff;
+
+}
+
+
+#marcador {
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+
+
+#reiniciarjuego {
+    padding: 15px 30px;
+    font-size: 24px;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+#reiniciarjuego:hover {
+   
+    transform: scale(1.4);
+    background: linear-gradient(#ff0000, #0cd4df);
+}
+
+
+.Tablero {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Tablero div {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+
+
+}
+
+.Tablero div:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.05);
+}
+
+
+
+h1 {
+    font-size: 32px;
+}
+
+
+
+#reiniciarjuego {
+    padding: 12px 25px;
+    margin-top: 40px;
+}
